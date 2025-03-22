@@ -1,0 +1,55 @@
+/* 
+    This file contains the CSS code for the personal website.
+    The code is divided into sections for better organization.
+*/
+
+/*channel section*/
+#personal_website_channels{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+}
+
+/*a section*/
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+a:link{
+    color:#ddd
+}
+
+a:visited{
+    color: #666;
+}
+
+a:hover{
+    color: #aaa;
+    animation: channel_hover 3s;
+}
+
+/*animate section*/
+@keyframes channel_hover{
+    from{
+        font-size: 50px;
+    }
+    to{
+        font-size: 55px;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
